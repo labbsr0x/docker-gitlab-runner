@@ -1,5 +1,4 @@
-FROM gitlab/gitlab-runner:ubuntu-v10.8.0
-
+FROM gitlab/gitlab-runner:ubuntu-v10.7.2
 ENV DOCKERVERSION=18.03.0-ce
 RUN curl -fsSLO https://download.docker.com/linux/static/stable/x86_64/docker-${DOCKERVERSION}.tgz \
   && mv docker-${DOCKERVERSION}.tgz docker.tgz \
